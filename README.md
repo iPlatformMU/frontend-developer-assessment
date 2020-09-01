@@ -8,7 +8,7 @@
 ## Please use the following tools as part of your solution:
 * HTML(5)
 * CSS(3) and/or Bootstrap
-* JavaScript, jQuery, EmberJS, AngularJS, Knockout
+* JavaScript, jQuery, ReactJS, Redux, etc
 
 ## What is expected?
 The assessment requires you to build a front end to allow an end user to search for their favourite artist using the last.fm API and add the artist to a list of favourite artists. Further to this, the front should allow the user to find the releases for a specific artist, and add releases to their favourites. Finally the front end should allow the user to see their favourites and update their favourites.
