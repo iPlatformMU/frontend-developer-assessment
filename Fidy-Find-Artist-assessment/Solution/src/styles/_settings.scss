@@ -1,0 +1,27 @@
+$blue: royalblue;
+$darkGrey: #444444;
+$white: #f5f5f5;
+$lightGrey: #efefef;
+$lightGreen: #dafff3;
+$red: rgb(243, 43, 43);
+$fade: #d0c0c0;
+$green: #16c516;
+$darkgreen: #01993b;
+
+$screen-sm: 576px;
+
+.favorite-icon {
+  line-height: 1.45;
+
+  &:hover {
+    color: $blue !important;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+.cursor-default {
+  cursor: default
+}

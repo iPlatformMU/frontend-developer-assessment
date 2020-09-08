@@ -1,0 +1,35 @@
+.artist-name-header-modal {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  font-weight: 650;
+  color: $darkGrey;
+}
+
+.modal-close {
+  position: absolute;
+  right: 30px;
+  top: 13px;
+  font-weight: 700;
+  font-size: 19px;
+  color: $darkGrey;
+  cursor: default;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+.shortList {
+  .shortlist-item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+  }
+  .artist-name-shortlist {
+    display: inline-block;
+    height: 25px;
+    width: 90%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
