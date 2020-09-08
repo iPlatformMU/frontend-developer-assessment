@@ -1,0 +1,23 @@
+.search {
+  .search-form {
+    .search-input {
+      box-shadow: none;
+    }
+
+    #search-button {
+      &:hover {
+        background-color: $lightGrey !important;
+      }
+
+      &:active {
+        background-color: $lightGreen !important;
+      }
+    }
+  }
+
+  .search-result-separator {
+    height: 2px;
+    border: none;
+    background-color: $lightGrey;
+  }
+}

@@ -1,0 +1,60 @@
+.first-load-text {
+  text-align: center;
+  margin-top: 7rem;
+  color: $fade;
+  font-size: 20px;
+  cursor: default;
+}
+
+.artist-name-header {
+  font-size: 17px;
+  font-weight: 650;
+  margin: 3rem auto 11px 110px;
+}
+
+.artist {
+  display: grid;
+  grid-template-columns: 100px 1fr 30px;
+  padding: 8px;
+
+  &:hover {
+    background-color: $white;
+  }
+
+  .artist-name {
+    line-height: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: $blue;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+
+  .shortlist-add {
+    font-size: 25px;
+    color: $green;
+    line-height: 2;
+
+    &:hover {
+      cursor: pointer;
+      color: $darkgreen;
+    }
+  }
+}
+
+@media screen and (max-width: $screen-sm) {
+  .artist-name-header {
+    margin-left: 10px;
+  }
+  
+  .artist {
+    grid-template-columns: 1fr 30px;
+  }
+
+  .img-cover {
+    display: none;
+  }
+}

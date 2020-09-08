@@ -1,0 +1,33 @@
+.favorite-artist-name-header {
+  margin-left: 80px;
+  margin-bottom: 10px;
+  font-weight: 650;
+  color: $darkGrey;
+}
+
+.favlist-item {
+  display: grid;
+  grid-template-columns: 70px 1fr 126px !important;
+
+  .minus-icon {
+    color: $red;
+    font-size: 1.2rem;
+    margin-left: 25px;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+}
+
+@media screen and(max-width: $screen-sm) {
+  .favorite-artist-name-header {
+    margin-left: 60px;
+  }
+
+  .favlist-item {
+    grid-template-columns: 50px 1fr;
+
+    .minus-icon {
+      margin-left: 10px;
+    }
+  }
+}
